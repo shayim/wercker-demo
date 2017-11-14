@@ -27,5 +27,5 @@ deploy:
         username: $USERNAME
         password: $PASSWORD
         repository: shayim/hello-world
-        registry: https://registery.hub.docker.com
+        registry: https://registry.hub.docker.com
         entrypoint: "/pipeline/source/app/docker_entrypoint.sh"
